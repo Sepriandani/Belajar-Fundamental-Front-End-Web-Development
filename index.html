@@ -13,10 +13,10 @@
         <button id="showNotesBtn">Show Notes</button>
         <button id="showArchivedBtn">Show Archived Notes</button>
       </div>
-      <div id="loadingIndicator" class="loading-indicator">Loading...</div>
-      <div id="noteList"></div>
-      <div id="archivedNoteList" style="display:none;"></div>
+      <div id="loadingIndicator" class="loading-indicator"></div>
+      <notes-list></notes-list>
+      <archive-list></archive-list>
     </div>
-    <script src="dist/app.bundle.js"></script> <!-- Make sure Webpack outputs this file -->
+    <script src="dist/app.bundle.js"></script>
   </body>
 </html>
